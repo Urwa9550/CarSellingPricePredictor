@@ -1,1 +1,1 @@
-web: gunicorn CarPricePredictor.wsgi --log-file /app/logs/gunicorn.log
+web: gunicorn CarPricePredictor.wsgi --log-file -
