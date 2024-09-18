@@ -72,7 +72,7 @@ def index_func(request):
 
                 df = pd.concat([df, pd.DataFrame([df2])], ignore_index=True)
 
-                filename = '../model/CarSelling.pickle'
+                filename = 'playground/CarSelling.pickle'
                 if not os.path.exists(filename):
                     return HttpResponse("Model file not found.", status=500)
                 loaded_model = pickle.load(open(filename, 'rb'))
