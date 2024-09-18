@@ -64,7 +64,7 @@ INTERNAL_IPS = [
     # ...
 ]
 
-ROOT_URLCONF = "CarPricePredictor.urls"
+ROOT_URLCONF = "cpp.urls"
 
 TEMPLATES = [
     {
@@ -82,7 +82,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "CarPricePredictor.wsgi.application"
+WSGI_APPLICATION = "cpp.wsgi.application"
 
 
 # Database
