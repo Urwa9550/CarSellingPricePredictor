@@ -3,3 +3,24 @@
 # 2b. now select interpreter (virtual env ) path 
 # 2c. ccmd+shift+p select  interpreter (virtual env) path
 # 2d. add new path -> paste the path + /bin/python  #(append)
+
+#deploying on heroku
+# first I missed this line in Settings.py ( got this error while deploying on heroku )
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# After deploy - My site was giving error on View
+# now added requirements.txt using below command
+  pip freeze > requirements.txt
+
+# also added below line 
+MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    # other middleware
+]
+
+# changed allowed host to 
+ALLOWED_HOSTS = ['car-selling-price-predictor-01.herokuapp.com', '127.0.0.1']
+
+
+# now checking for database 
+
