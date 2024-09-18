@@ -21,6 +21,9 @@ MIDDLEWARE = [
 # changed allowed host to 
 ALLOWED_HOSTS = ['car-selling-price-predictor-01.herokuapp.com', '127.0.0.1']
 
+#added gunicorn
+pip install gunicorn
 
-# now checking for database 
+
+# now checking for database ( on hold )
 
