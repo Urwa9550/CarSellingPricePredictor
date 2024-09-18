@@ -1,0 +1,5 @@
+# 1. python manage.py runserver
+# 2a. pipenv --venv   #find Path to virtual environment
+# 2b. now select interpreter (virtual env ) path 
+# 2c. ccmd+shift+p select  interpreter (virtual env) path
+# 2d. add new path -> paste the path + /bin/python  #(append)
