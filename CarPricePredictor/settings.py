@@ -29,7 +29,8 @@ SECRET_KEY = "django-insecure-r(msw2r9*^j-a$1x03a0q#4cd2wq^k4wa8_(7(k)*v*=^fm)xr
 DEBUG = False
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['car-selling-price-predictor-01.herokuapp.com', '127.0.0.1']
+# ALLOWED_HOSTS = ['car-selling-price-predictor-01.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['car-selling-price-predictor-01-a39d00d0fbf3.herokuapp.com', '127.0.0.1']
 
 
 
@@ -64,7 +65,7 @@ INTERNAL_IPS = [
     # ...
 ]
 
-ROOT_URLCONF = "cpp.urls"
+ROOT_URLCONF = "CarPricePredictor.urls"
 
 TEMPLATES = [
     {
@@ -82,7 +83,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "cpp.wsgi.application"
+WSGI_APPLICATION = "CarPricePredictor.wsgi.application"
 
 
 # Database
