@@ -10,11 +10,15 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
+# import django_heroku
 from pathlib import Path
 import os
 # import dj_database_url
-import django_heroku # type: ignore
-django_heroku.settings(locals())
+# import django_on_heroku
+###
+# django_on_heroku.settings(locals())
+
+# django_heroku.settings(locals())
 
 
 
