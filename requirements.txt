@@ -89,8 +89,10 @@ dill @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_774m4
 distlib==0.3.8
 distributed @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_0a42yrkbso/croot/distributed_1715844463412/work
 distro @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_b5l_bzm_c4/croot/distro_1714488255954/work
+dj-database-url==2.2.0
 Django==5.1.1
 django-debug-toolbar==4.4.6
+django-heroku==0.3.1
 docstring-to-markdown @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/docstring-to-markdown_1699248259185/work
 docutils @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/docutils_1699240610068/work
 entrypoints @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/entrypoints_1699248284911/work
@@ -229,6 +231,7 @@ prompt-toolkit @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T
 Protego @ file:///tmp/build/80754af9/protego_1598657180827/work
 protobuf==3.20.3
 psutil @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/psutil_1699246686105/work
+psycopg2==2.9.9
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
 py-cpuinfo @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/py-cpuinfo_1699249517716/work
@@ -367,6 +370,7 @@ websocket-client @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp
 Werkzeug @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_53yi9ymayw/croot/werkzeug_1716533323400/work
 whatthepatch @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/whatthepatch_1699251044124/work
 wheel==0.43.0
+whitenoise==6.7.0
 widgetsnbextension @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_55iz0tfo89/croot/widgetsnbextension_1710960056659/work
 wrapt @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/wrapt_1699245094349/work
 wurlitzer @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/wurlitzer_1699296593258/work
