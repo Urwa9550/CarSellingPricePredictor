@@ -37,7 +37,7 @@ DEBUG = False
 
 # ALLOWED_HOSTS = ['*']
 # ALLOWED_HOSTS = ['car-selling-price-predictor-01.herokuapp.com', 'localhost','127.0.0.1']
-ALLOWED_HOSTS = ['car-selling-price-predictor-01.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['carpricepred01.herokuapp.com', '127.0.0.1']
 
 
 

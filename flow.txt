@@ -5,6 +5,9 @@
 # 2d. add new path -> paste the path + /bin/python  #(append)
 
 #deploying on heroku
+# heroku CollectStatic error
+# solution: heroku -> goto settings ( & scroll down ) -> Config Vars -> set key: DISABLE_COLLECTSTATIC, value: 1
+
 # first I missed this line in Settings.py ( got this error while deploying on heroku )
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
