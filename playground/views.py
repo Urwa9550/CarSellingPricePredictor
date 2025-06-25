@@ -9,6 +9,9 @@ import os
 # request handler
 
 # Create your views here.
+def say_hello(request):
+    return render('Hello to world')
+
 def index_func(request):
     # print(f"Request method: {request.method}")
     # print(f"Request POST data: {request.POST}")
