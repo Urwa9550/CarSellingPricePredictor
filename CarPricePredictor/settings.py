@@ -77,7 +77,8 @@ ROOT_URLCONF = "CarPricePredictor.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        'DIRS': ['/Users/apple/Documents/Python/Python180/car_selling_price_prediction/MyCarSellingPricePredictor/playground/templates/'],
+        # 'DIRS': ['/Users/apple/Documents/Python/Python180/car_selling_price_prediction/MyCarSellingPricePredictor/playground/templates/'],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
